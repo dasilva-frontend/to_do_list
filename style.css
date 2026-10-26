@@ -1,0 +1,109 @@
+body {
+  background-color: #eadfd5;
+}
+header {
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #66504d;
+  font-family: DM Serif Display;
+  font-weight: lighter;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.title-welcomePage {
+  text-align: center;
+  color: #66504d;
+  font-family: DM Serif Display;
+}
+.title-dashboardPage {
+  font-weight: bolder;
+  color: #66504d;
+  font-family: DM Serif Display;
+}
+.subtitle {
+  text-align: center;
+  color: #66504d;
+  font-family: Inter;
+  margin-top: 26px;
+}
+.subtitle-dashboardPage {
+  color: #66504d;
+  font-family: Inter;
+  font-weight: lighter;
+  font-size: medium;
+  margin-bottom: 60px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 122px;
+  margin-bottom: 47px;
+}
+.button {
+  background-color: #e8c7cc;
+  color: #66504d;
+  font-family: Inter;
+  border-radius: 60px;
+  border: none;
+  width: min(354px, 90%);
+  height: 108px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+.button-container {
+  text-align: center;
+}
+.cards {
+  background-color: white;
+  border-radius: 15px;
+  height: 70px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.icons {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #66504d;
+}
+.icon-hover:hover {
+  color: #e8c7cc;
+}
+.title-card {
+  color: #66504d;
+  font-family: DM Serif Display;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.subtitle-card {
+  color: #66504d;
+  font-family: Inter;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.menu {
+  background-color: #d9c7c7;
+margin-left:10px;
+  height: min(80vh);
+}
+
+.toDoList {
+  background-color: #eadfd5;
+  height: min(80vh);
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #e8c7cc;
+  border-radius: 40px;
+}

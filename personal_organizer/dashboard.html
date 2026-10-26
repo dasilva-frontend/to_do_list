@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="../img/myorganizer_symbol.svg" />
+          <h3
+            class="title-dashboardPage"
+            style="font-size: xx-large; position: relative; left: 10px"
+          >
+            My Organizer
+          </h3>
+        </div>
+        <i
+          class="bi bi-gear fs-5 icons icon-hover"
+          style="position: relative; right: 10px; bottom: 10px"
+        ></i>
+      </header>
+      <escape><hr /></escape>
+      <div class="mt-4">
+        <h4 class="title-dashboardPage" style="font-size: 40px; margin-top:60px;" id="saudacao">
+          Good Morning!
+        </h4>
+        <h6 class="subtitle-dashboardPage">
+          What would you like to organize today?
+        </h6>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="card cards">
+            <i class="bi bi-check2-circle fs-3 icons"></i>
+            <div style="display: flex; flex-direction: column">
+              <h6 class="title-card">To-Do-List</h6>
+
+              <p class="subtitle-card">Organize your tasks</p>
+            </div>
+            <i
+              class="icons icon-hover bi bi-chevron-right fs-2 ms-auto"
+              style="margin-right: 10px"
+              data-page="toDoList.html"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="card cards">
+            <i class="bi bi-cart fs-3 icons"></i>
+            <div style="display: flex; flex-direction: column">
+              <h6 class="title-card">Shopping List</h6>
+
+              <p class="subtitle-card">Keep track of your shopping</p>
+            </div>
+            <i
+              class="icons icon-hover bi bi-chevron-right fs-2 ms-auto"
+              style="margin-right: 10px"
+              id="shoppingList"
+              data-page="shoppingList.html"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="card cards">
+            <i class="bi bi-credit-card fs-3 icons"></i>
+            <div style="display: flex; flex-direction: column">
+              <h6 class="title-card">Bills to Pay</h6>
+
+              <p class="subtitle-card">Manage your expenses</p>
+            </div>
+            <i
+              class="icons icon-hover bi bi-chevron-right fs-2 ms-auto"
+              style="margin-right: 10px"
+              id="expenseList"
+              data-page="expenses.html"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12">
+          <div class="card cards">
+            <i
+              class="bi bi-piggy-bank fs-3 icons"
+              style="transform: scaleX(-1)"
+            ></i>
+            <div style="display: flex; flex-direction: column">
+              <h6 class="title-card">Savings Goals</h6>
+
+              <p class="subtitle-card">Plan your savings</p>
+            </div>
+            <i
+              class="icons icon-hover bi bi-chevron-right fs-2 ms-auto"
+              style="margin-right: 10px"
+              id="savingList"
+              data-page="savings.html"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../dashboard.js"></script>
+  </body>
+</html>
